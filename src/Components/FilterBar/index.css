@@ -3,6 +3,9 @@
 .filterbar-main-container{
     justify-content:space-between;
 }
+.hide-show-filter{
+    margin-left: 60px;
+}
 .filterbar-main-container,.filter,.filter div{
     display: flex;
     align-items: center;
@@ -28,6 +31,11 @@
     border: none;
 }
 .slidebar-product-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.side{
     display: flex;
     flex-direction: row;
     justify-content: space-between;

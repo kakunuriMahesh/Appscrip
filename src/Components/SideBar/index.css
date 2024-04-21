@@ -5,10 +5,19 @@
 }
 .filter-item{
     text-align: left;
+    width: 100%;
 }
 .filter-item select{
     outline: none;
     border: none;
-    width: 200px;
+    width: 350px;
     
+}
+@media screen and (max-width: 1120px){
+    .filter-item select{
+        outline: none;
+        border: none;
+        width: 200px;
+        margin-right: 20px;
+    }
 }

@@ -20,7 +20,7 @@ const Products = (props)=>{
     },[])
     
     return (
-        <div>
+        <div className="main-product-container">
             <div className={ 
                     `${view? 'product-items' : 'item-show'} ` 
                 }>

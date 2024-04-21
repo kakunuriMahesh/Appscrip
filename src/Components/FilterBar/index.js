@@ -16,7 +16,7 @@ const FilterBar = () => {
             <div className="filterbar-main-container">
                 <div className="filter">
                     <h5>3425 ITEMS</h5>
-                    <div>
+                    <div className="hide-show-filter">
                         {showSideBar ? (
                             <div>
                                 <IoIosArrowBack />
@@ -53,8 +53,8 @@ const FilterBar = () => {
                     <hr/>
                 </div>
             </div>
-            <div className="slidebar-product-container">
-                {showSideBar && <SideBar />}
+            <div className={showSideBar? 'side':'slidebar-product-container'}>
+                {showSideBar && <SideBar/>}
                 <Products view={showSideBar}/>
             </div>
         </div>
