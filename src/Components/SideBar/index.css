@@ -1,0 +1,14 @@
+
+.customizble-container{
+    display: flex;
+    flex-direction: row;
+}
+.filter-item{
+    text-align: left;
+}
+.filter-item select{
+    outline: none;
+    border: none;
+    width: 200px;
+    
+}

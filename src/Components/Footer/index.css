@@ -1,0 +1,131 @@
+
+.footer-main-container{
+    background: #000;
+    color: white;
+    padding: 70px 40px;
+}
+.subscribe-container{
+    display: flex;
+    margin-top: 50px;
+}
+.subscribe-container input{
+    outline: none;
+    border: none;
+    /* width: 400px; */
+    height: 35px;
+}
+.subscribe-container button{
+    /* width: 150px; */
+    cursor: pointer;
+    height: 35px;
+    background-color: #000;
+    color: gray;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.flag-container{
+    display: flex;
+    align-items: center;
+}
+.content{
+    text-align: left;
+    /* margin-right: 550px; */
+}
+.first{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.second{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr
+}
+.p-bold{
+    font-weight: bold;
+}
+.first-head{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.first-p{
+    font-size: 10px;
+
+}
+.second-head{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.third-head{
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0px;
+}
+.second-p{
+    font-size: 11px;
+}
+.icon{
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+.cards-head{
+    margin-top: 20px;
+}
+.card-img-container{
+    display: flex;
+    align-items: center;
+}
+.card-img{
+    width: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+.flag-icon{
+    border-radius:50% ;
+    width:20px;
+    margin-right: 5px;
+
+}
+.square{
+    margin-right: 5px;
+    width: 5px;
+    rotate: 45deg;
+}
+.footer-min-container{
+    display: none;
+}
+.input-min{
+    width: 100%;
+}
+@media screen and (max-width: 660px){
+
+    .max-footer{
+        display: none;
+    }
+    .footer-min-container{
+        display: block;
+    }
+    .min-option{
+        outline: none;
+        border: none;
+        background-color: transparent;
+        color: white;
+        width: 100%;
+        font-weight: bold;
+    }
+    .min-content{
+        text-align: left;
+    }
+    .min-call{
+        display: flex;
+        align-items: center;
+    }
+    .min-square{
+        rotate: 45deg;
+        font-size: 3px;
+        margin: 5px;
+    }
+}

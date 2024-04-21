@@ -1,0 +1,38 @@
+
+
+.items-main-container{
+    text-align: center;
+    /* width: 20%; */
+    /* height: 462px; */
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgb(255, 255, 255), rgb(236, 236, 236));;
+    height: 200px;
+}
+.product-name{
+    font-size: 15px;
+    margin: 2px 0px;
+}
+.product-image{
+    /* height: 100px; */
+    cursor: pointer;
+    width: 90px;
+}
+.product-signup-caption{
+    display: flex;
+    align-items: center;
+    color: gray;
+    font-size: 12px;
+}
+.product-signup-caption span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.love{
+    width: 50px;
+    cursor: pointer;
+    color: black;
+}
